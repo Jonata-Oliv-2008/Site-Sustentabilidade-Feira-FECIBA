@@ -137,7 +137,7 @@ function endQuiz() {
   document.getElementById("quiz-question").textContent = "Quiz finalizado!";
   document.getElementById("quiz-options").innerHTML = "";
   document.querySelector(".quiz-button").style.display = "none";
-  document.getElementById("quiz-score").textContent = `Você acertou ${score} de ${questions.length} perguntas! 🌱`;
+  document.getElementById("quiz-score").textContent = `Você acertou ${score} de ${questions.length} perguntas!`;
   document.getElementById("progress-fill").style.width = `100%`;
 }
 
@@ -152,3 +152,4 @@ function scrollToTop() {
     behavior: 'smooth'
   });
 }
+
